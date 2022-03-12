@@ -33,6 +33,10 @@ header{
     padding-top: 12px;
 }
 
+
+
+
+
 .menu-part p{
     color: aliceblue;
     font-weight: bold;
@@ -592,6 +596,52 @@ footer{
 .icon img{
     margin-left: 30px;
     height: 20px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.dropdown ul li{
+    display: block;
+    text-align: end;
+    margin-bottom: 5px;
+}
+
+.dropdown{
+    display: none;
+}
+
+.main-menu h3{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.main-menu:hover .dropdown{
+    display: block;
+   
+   
+}
+
+.main-menu img{
+    width: 35px;
+}
+
+.main-menu ul{
+    margin-top: 20px;
+    transition-duration: 1s;
+}
+
+.dropdown ul li{
+    margin-bottom: 15px;
+    transition-duration: 1s;
+}
+
+.dropdown ul li a{
+    box-shadow: 1px 1px 10px black;
+    padding: 5px 10px;
+    transition-duration: 1s;
+   
 }
 
 

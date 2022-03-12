@@ -10,9 +10,13 @@
         width: 80%;
         margin: auto;
     }
-    .menu-part ul{
-        display: none;
+    
+
+    .mobile-menu{
+        display: block;
     }
+
+    
 
     .btn-part .btn1 {
         padding: 10px 25px;
@@ -239,6 +243,20 @@
 .play-store{
     margin-top: 15px;
     width: 40%;
+}
+
+.mobile-menu{
+    display: block;
+}
+
+.main-menu:hover .dropdown{
+    display: block;
+    
+   
+}
+
+.computer-menu{
+    display: none;
 }
        
 
